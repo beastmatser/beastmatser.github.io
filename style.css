@@ -46,14 +46,14 @@ section {
 }
 
 .link-blue {
-  text-shadow: 0 0 5px #5865f2;
-  transition: all 0.2s ease-in-out;
+  color: #2c2f33;
+  text-decoration: none;
 }
 
 .link-blue:hover {
-  color: #fdfdfd;
-  text-shadow: 0 0 5px #3f3f3f;
-  transition: all 0.2s ease-in-out;
+  text-shadow: 0 0 10px #110e0e;
+  color: white;
+  transition: all 0.3s ease-in-out;
 }
 
 .unordered-list {
