@@ -38,7 +38,7 @@
 <span class="orange">import</span> <span class="yellow">asyncio</span>
 <span class="orange">import</span> <span class="yellow">aiopoke</span>
 
-<span class="orange">async def</span> <span class="yellow"></span>main<span class="par1">()</span> -> <span class="pink">None</span>:
+<span class="orange">async def</span> <span class="yellow">main</span><span class="par1">()</span> -> <span class="pink">None</span>:
     <span class="orange">async with</span> <span class="yellow">aiopoke</span>.AiopokeClient<span class="par1">()</span> <span class="orange">as</span> client:
         berry = <span class="orange">await</span> client.get_berry<span class="par1">(</span><span class="pink">1</span><span class="par1">)</span>
         print<span class="par1">(</span>berry<span class="par1">)</span>
