@@ -22,16 +22,29 @@ section {
   background: #2c2f33;
 }
 
-.spacer {
-  aspect-ratio: 950/290;
-  width: 100%;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+.orange {
+  color: #ff9d00;
 }
 
-.wave1 {
-  background-image: url("images/transition.svg");
+.pink {
+  color: #fb94ff;
+}
+
+.yellow {
+  color: #ffc600;
+}
+
+.comment {
+  color: #a2a5c4;
+}
+
+/* par is short for parentheses */
+.par1 {
+  color: #e2d625;
+}
+
+.par2 {
+  color: #d54ce7;
 }
 
 .link-black {
@@ -56,6 +69,18 @@ section {
   transition: all 0.3s ease-in-out;
 }
 
+.spacer {
+  aspect-ratio: 950/290;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.wave1 {
+  background-image: url("images/transition.svg");
+}
+
 .unordered-list {
   list-style: disc;
   padding: 0;
@@ -68,16 +93,6 @@ section {
 
 ::-webkit-scrollbar {
   width: 5px;
-}
-
-::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 5px grey;
-  border-radius: 10px;
-}
-
-::-webkit-scrollbar-thumb {
-  background: #aca8a8;
-  border-radius: 10px;
 }
 
 .center-image {
@@ -138,27 +153,12 @@ section {
   right: 5px;
 }
 
-.orange {
-  color: #ff9d00;
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
 }
 
-.pink {
-  color: #fb94ff;
-}
-
-.yellow {
-  color: #ffc600;
-}
-
-.comment {
-  color: #a2a5c4;
-}
-
-/* par is short for parentheses */
-.par1 {
-  color: #e2d625;
-}
-
-.par2 {
-  color: #d54ce7;
+::-webkit-scrollbar-thumb {
+  background: #aca8a8;
+  border-radius: 10px;
 }
