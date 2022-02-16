@@ -38,6 +38,10 @@ section {
   color: #a2a5c4;
 }
 
+.unused {
+  color: #cacbd6;
+}
+
 /* par is short for parentheses */
 .par1 {
   color: #e2d625;
