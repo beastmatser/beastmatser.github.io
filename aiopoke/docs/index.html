@@ -37,12 +37,12 @@
         Every type should have attributes as described in the docs listed
         <a href="https://pokeapi.co/docs/v2" class="link-black">here</a>.
       </p>
-      <p class="box">
+      <p class="box-item">
         class aiopoke.AiopokeClient(*, session: Optional[aiohttp.ClientSession])
       </p>
       All methods starting in 'get_' fetch the requested data from the PokeApi.
       Parameters:
-      <p class="box">session</p>
+      <p class="box-item">session</p>
       <p>
         An optional
         <a
@@ -54,166 +54,166 @@
         argument.
       </p>
       Methods:
-      <p class="box">
+      <p class="box-item">
         async def close(self) -> None
       </p>
       <p>
         Closes the underlying aiohttp.ClientSession.
       </p>
-      <p class="box">
+      <p class="box-item">
         async def get_ability(self, name_or_id: int | str) -> aiopoke.Ability
       </p>
-      <p class="box">
+      <p class="box-item">
         async def get_berry(self, name_or_id: int | str) -> aiopoke.Berry
       </p>
-      <p class="box">
+      <p class="box-item">
         async def berry_flavor(self, name_or_id: int | str) -> aiopoke.BerryFlavor
       </p>
-      <p class="box">
+      <p class="box-item">
         async def get_berry_firmness(self, name_or_id: int | str) ->
         aiopoke.BerryFirmness
       </p>
-      <p class="box">
+      <p class="box-item">
         async def get_characteristic(self, name_or_id: int | str) -> aiopoke.Characteristic
       </p>
-      <p class="box">
+      <p class="box-item">
         async def get_contest_effect(self, id_: int) -> aiopoke.ContestEffect
       </p>
-      <p class="box">
+      <p class="box-item">
         async def get_contest_type(self, name_or_id: int | str) -> aiopoke.ContestType
       </p>
-      <p class="box">
+      <p class="box-item">
         async def get_egg_group(self, name_or_id: int | str) -> aiopoke.EggGroup
       </p>
-      <p class="box">
+      <p class="box-item">
         async def get_encounter_condition(self, name_or_id: int | str) ->
         aiopoke.EncounterCondition
       </p>
-      <p class="box">
+      <p class="box-item">
         async def get_encounter_condition_value(self, name_or_id: int | str) ->
         aiopoke.EncounterConditionValue
       </p>
-      <p class="box">
+      <p class="box-item">
         async def get_encounter_method(self, name_or_id: int | str) ->
         aiopoke.EncounterMethod
       </p>
-      <p class="box">
+      <p class="box-item">
         async def get_evolution_chain(self, id_: int) ->
         aiopoke.EvolutionChain
       </p>
-      <p class="box">
+      <p class="box-item">
         async def get_evolution_trigger(self, name_or_id: int | str) ->
         aiopoke.EvolutionTrigger
       </p>
-      <p class="box">
+      <p class="box-item">
         async def get_gender(self, id_: int) -> aiopoke.Generation
       </p>
-      <p class="box">
+      <p class="box-item">
         async def get_generation(self, name_or_id: int | str) -> aiopoke.Generation
       </p>
-      <p class="box">
+      <p class="box-item">
         async def get_growth_rate(self, name_or_id: int | str) -> aiopoke.GrowthRate
       </p>
-      <p class="box">
+      <p class="box-item">
         async def get_item(self, name_or_id: int | str) -> aiopoke.Item
       </p>
-      <p class="box">
+      <p class="box-item">
         async def get_item_attribute(self, name_or_id: int | str) -> aiopoke.ItemAttribute
       </p>
-      <p class="box">
+      <p class="box-item">
         async def get_item_category(self, name_or_id: int | str) -> aiopoke.ItemCategory
       </p>
-      <p class="box">
+      <p class="box-item">
         async def get_item_fling_effect(self, name_or_id: int | str) ->
         aiopoke.ItemFlingEffect
       </p>
-      <p class="box">
+      <p class="box-item">
         async def get_item_pocket(self, name_or_id: int | str) -> aiopoke.ItemPocket
       </p>
-      <p class="box">
+      <p class="box-item">
         async def get_language(self, name_or_id: int | str) -> aiopoke.Language
       </p>
-      <p class="box">
+      <p class="box-item">
         async def get_location(self, name_or_id: int | str) -> aiopoke.Location
       </p>
-      <p class="box">
+      <p class="box-item">
         async def get_location_area(self, name_or_id: int | str) -> aiopoke.LocationArea
       </p>
-      <p class="box">
+      <p class="box-item">
         async def get_machine(self, name_or_id: int | str) -> aiopoke.Machine
       </p>
-      <p class="box">
+      <p class="box-item">
         async def get_move(self, name_or_id: int | str) -> aiopoke.Move
       </p>
-      <p class="box">
+      <p class="box-item">
         async def get_move_ailment(self, name_or_id: int | str) -> aiopoke.MoveAilment
       </p>
-      <p class="box">
+      <p class="box-item">
         async def get_move_battle_style(self, name_or_id: int | str) ->
         aiopoke.MoveBattleStyle
       </p>
-      <p class="box">
+      <p class="box-item">
         async def get_move_category(self, name_or_id: int | str) -> aiopoke.MoveCategory
       </p>
-      <p class="box">
+      <p class="box-item">
         async def get_move_damage_class(self, name_or_id: int | str) ->
         aiopoke.MoveDamageClass
       </p>
-      <p class="box">
+      <p class="box-item">
         async def get_move_learn_method(self, name_or_id: int | str) ->
         aiopoke.MoveLearnMethod
       </p>
-      <p class="box">
+      <p class="box-item">
         async def get_move_target(self, name_or_id: int | str) -> aiopoke.MoveTarget
       </p>
-      <p class="box">
+      <p class="box-item">
         async def get_nature(self, name_or_id: int | str) -> aiopoke.Nature
       </p>
-      <p class="box">
+      <p class="box-item">
         async def get_pal_park_area(self, name_or_id: int | str) -> aiopoke.PalParkArea
       </p>
-      <p class="box">
+      <p class="box-item">
         async def get_pokeathlon_stat(self, name_or_id: int | str) -> aiopoke.PokeathlonStat
       </p>
-      <p class="box">
+      <p class="box-item">
         async def get_pokedex(self, name_or_id: int | str) -> aiopoke.Pokedex
       </p>
-      <p class="box">
+      <p class="box-item">
         async def get_pokemon(self, name_or_id: int | str) -> aiopoke.Pokemon
       </p>
-      <p class="box">
+      <p class="box-item">
         async def get_pokemon_color(self, name_or_id: int | str) -> aiopoke.PokemonColor
       </p>
-      <p class="box">
+      <p class="box-item">
         async def get_pokemon_form(self, name_or_id: int | str) -> aiopoke.PokemonForm
       </p>
-      <p class="box">
+      <p class="box-item">
         async def get_pokemon_habitat(self, name_or_id: int | str) -> aiopoke.PokemonHabitat
       </p>
-      <p class="box">
+      <p class="box-item">
         async def get_pokemon_shape(self, name_or_id: int | str) -> aiopoke.PokemonShape
       </p>
-      <p class="box">
+      <p class="box-item">
         async def get_pokemon_species(self, name_or_id: int | str) -> aiopoke.PokemonSpecies
       </p>
-      <p class="box">
+      <p class="box-item">
         async def get_region(self, name_or_id: int | str) ->
         aiopoke.Region
       </p>
-      <p class="box">
+      <p class="box-item">
         async def get_stat(self, name_or_id: int | str) -> aiopoke.Stat
       </p>
-      <p class="box">
+      <p class="box-item">
         async def get_super_contest_effect(self, name_or_id: int | str) ->
         aiopoke.SuperContestEffect
       </p>
-      <p class="box">
+      <p class="box-item">
         async def get_type(self, name_or_id: int | str) -> aiopoke.NaturalGiftType
       </p>
-      <p class="box">
+      <p class="box-item">
         async def get_version(self, name_or_id: int | str) -> aiopoke.Version
       </p>
-      <p class="box">
+      <p class="box-item">
         async def get_version_group(self, name_or_id: int | str) -> aiopoke.VersionGroup
       </p>
 
